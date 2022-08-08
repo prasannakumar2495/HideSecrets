@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ContentName_BottomStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/secondaryTextSize</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/data_name</item>
+        <item name="android:background">@color/purple_700</item>
+        <item name="android:gravity">center</item>
+        <item name="android:alpha">0.4</item>
+    </style>
+</resources>

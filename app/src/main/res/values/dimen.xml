@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTextSize">@dimen/_20sdp</dimen>
+    <dimen name="secondaryTextSize">@dimen/_12sdp</dimen>
+    <dimen name="recyclerViewPadding">@dimen/_3sdp</dimen>
+    <dimen name="cardViewCornerRadius">@dimen/_18sdp</dimen>
+</resources>
