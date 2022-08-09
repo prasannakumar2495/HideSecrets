@@ -51,4 +51,7 @@
     <string name="photos">Photos</string>
     <string name="videos">Videos</string>
     <string name="apk_s">APK\'s</string>
+    <string name="add_any_type_of_data">Add any type of data!</string>
+    <string name="add_photos">Add Photos</string>
+    <string name="add_videos">Add Videos</string>
 </resources>

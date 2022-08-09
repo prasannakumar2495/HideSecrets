@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PopUpMenu_Style"
+           parent="Widget.Material3.PopupMenu">
+        <item name="android:popupBackground">@color/purple_200</item>
+        <item name="android:shape">@drawable/ic_add</item>
+    </style>
+</resources>

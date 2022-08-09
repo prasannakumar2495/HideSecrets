@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_play_button.xml" value="0.148" />
+        <entry key="app/src/main/res/drawable/popupmenu_shape.xml" value="0.101" />
         <entry key="app/src/main/res/layout/activity_apkactivity.xml" value="0.13802083333333334" />
         <entry key="app/src/main/res/layout/activity_documents.xml" value="0.13802083333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
@@ -15,7 +17,9 @@
         <entry key="app/src/main/res/layout/cardview_different_data_type.xml" value="0.25" />
         <entry key="app/src/main/res/layout/cardview_images_individual_items.xml" value="0.13802083333333334" />
         <entry key="app/src/main/res/layout/cardview_individual_items.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/popupmenu_layout.xml" value="0.13697916666666668" />
         <entry key="app/src/main/res/layout/single_videoview.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/menu/floating_action_button_menu.xml" value="0.13697916666666668" />
       </map>
     </option>
   </component>
