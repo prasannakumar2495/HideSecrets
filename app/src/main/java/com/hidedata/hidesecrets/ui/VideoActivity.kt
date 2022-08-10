@@ -32,7 +32,7 @@ class VideoActivity : AppCompatActivity() {
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
 
-        if (requestCode == 121 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+        if (requestCode == 101 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             getAllVideos()
         }
     }

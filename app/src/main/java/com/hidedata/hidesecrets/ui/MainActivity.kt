@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         floatingActionButton = binding.mainActivityFloatingActionButton
         clickOnFloatingActionButton()
 
-        userAuthentication()
+        //userAuthentication()
         createDifferentDataTypeRecyclerView()
     }
 

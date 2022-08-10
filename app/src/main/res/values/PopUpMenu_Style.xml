@@ -2,8 +2,7 @@
 <resources>
 
     <style name="PopUpMenu_Style"
-           parent="Widget.Material3.PopupMenu">
+           parent="Widget.Material3.PopupMenu.ContextMenu">
         <item name="android:popupBackground">@color/purple_200</item>
-        <item name="android:shape">@drawable/ic_add</item>
     </style>
 </resources>

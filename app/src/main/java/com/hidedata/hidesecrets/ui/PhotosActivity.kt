@@ -69,7 +69,7 @@ class PhotosActivity : AppCompatActivity() {
         grantResults: IntArray,
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        if (requestCode == 121 &&
+        if (requestCode == 101 &&
             grantResults[0] == PackageManager.PERMISSION_GRANTED
         ) {
             getAllPictures()
