@@ -3,14 +3,11 @@ package com.hidedata.hidesecrets.ui
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.biometric.BiometricPrompt
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.hidedata.hidesecrets.R
 import com.hidedata.hidesecrets.adapters.DifferentDataTypeAdapter
 import com.hidedata.hidesecrets.databinding.ActivityMainBinding
 import java.util.concurrent.Executor
@@ -18,7 +15,6 @@ import java.util.concurrent.Executor
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var layoutManager: RecyclerView
-    private lateinit var floatingActionButton: FloatingActionButton
     private val myAdapter by lazy {
         DifferentDataTypeAdapter()
     }
@@ -34,30 +30,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        floatingActionButton = binding.mainActivityFloatingActionButton
-        clickOnFloatingActionButton()
 
         //userAuthentication()
         createDifferentDataTypeRecyclerView()
-    }
-
-    private fun clickOnFloatingActionButton() {
-        floatingActionButton.setOnClickListener {
-            val popupMenu = PopupMenu(this, it)
-            popupMenu.inflate(R.menu.floating_action_button_menu)
-            popupMenu.setOnMenuItemClickListener { menuItem ->
-                when (menuItem.itemId) {
-                    R.id.addPhotos -> {
-                        Toast.makeText(this, "Photos", Toast.LENGTH_SHORT).show()
-                    }
-                    R.id.addVideos -> {
-                        Toast.makeText(this, "Videos", Toast.LENGTH_SHORT).show()
-                    }
-                }
-                return@setOnMenuItemClickListener true
-            }
-            popupMenu.show()
-        }
     }
 
     private fun userAuthentication() {

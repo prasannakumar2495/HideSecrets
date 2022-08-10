@@ -54,4 +54,6 @@
     <string name="add_any_type_of_data">Add any type of data!</string>
     <string name="add_photos">Add Photos</string>
     <string name="add_videos">Add Videos</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="pick_video">Pick Video</string>
 </resources>
